@@ -1,6 +1,12 @@
 # Website-Security-Analyser
 Little Python script to monitor differents aspects of our differents websites (Blacklists, content integrity, etc.)
 
+Requirements
+============
+
+    * Python
+    * Beautiful Soup: **sudo apt-get install python-bs4**
+
 Configuration
 =============
 
