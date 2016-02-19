@@ -5,7 +5,7 @@ Requirements
 ============
 
     * Python
-    * Beautiful Soup: **sudo apt-get install python-bs4**
+    * Beautiful Soup: sudo apt-get install python-bs4
 
 Configuration
 =============
