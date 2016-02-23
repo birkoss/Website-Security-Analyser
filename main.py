@@ -3,7 +3,6 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
 from blacklist import *
-from sucuri import *
 from integrity import *
 
 
