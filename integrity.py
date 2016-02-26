@@ -35,7 +35,9 @@ def check_websites():
         new_md5 = hashlib.md5( str(soup) ).hexdigest()
 
         # Create site path if not presents
-        site_path = '.integrity/' + site_name + "/"
+	app_path = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+
+        site_path = os.path.join(app_path, '.integrity/' + site_name + "/")
         if not os.path.exists(site_path):
             os.makedirs(site_path)
 
